@@ -9,6 +9,8 @@
     'depends': ['base'],
     'data': [
         'security/library_security.xml',
-        'views/library_book.xml'
+        'security/ir.model.access.csv',
+        'views/library_book.xml',
+        #'views/res_config_settings.xml',
         ],
 }

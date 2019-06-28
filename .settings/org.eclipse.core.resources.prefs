@@ -5,6 +5,7 @@ encoding//models/library_book_category.py=utf-8
 encoding//models/library_book_loan.py=utf-8
 encoding//models/library_loan_wizard.py=utf-8
 encoding//models/library_member.py=utf-8
+encoding//models/res_config_settings.py=utf-8
 encoding//models/res_partner.py=utf-8
 encoding/__init__.py=utf-8
 encoding/__openerp__.py=utf-8

@@ -70,5 +70,11 @@
 	action="action_wizard_loan_books"
 	sequence="20"
 	/>
+
+<record id="group_release_dates" model="res.groups">
+	<field name="name">Library: release date feature</field>
+	<field name="category_id" ref="base.module_category_hidden" />
+</record>
+
 </data>
 </openerp>

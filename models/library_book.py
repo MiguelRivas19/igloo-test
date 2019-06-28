@@ -8,10 +8,12 @@ class LibraryBook(models.Model):
     _name = 'library.book'
 
     name = fields.Char('Title', required=True)
-    date_release = fields.Date('Release Date')
+    date_release = fields.Date(
+        'Release Date',
+        groups='igloo-test.group_release_dates')
     author_ids = fields.Many2many('res.partner',
                                   string='Authors')
-    
+
     short_name = fields.Char(
         string='Short Title',
         size=100,
